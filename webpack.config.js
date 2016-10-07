@@ -19,11 +19,11 @@ const common = {
   },
   output: {
     path: PATHS.build,
-    filename: '[name].js'
+    filename: 'bundle.js'
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack demo'
+      template: 'index.template.ejs'
     })
   ]
 };

@@ -1,3 +1,3 @@
 var component = require('./component');
 
-document.body.appendChild(component());
+document.getElementById('root').appendChild(component());
