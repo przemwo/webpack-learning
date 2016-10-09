@@ -1,3 +1,11 @@
-var component = require('./component');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-document.getElementById('root').appendChild(component());
+import Component from './component';
+
+import './style.css';
+
+ReactDOM.render(
+  <Component />,
+  document.getElementById('root')
+);
